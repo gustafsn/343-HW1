@@ -6,3 +6,7 @@ git commit -m "<your message>" : The message should relate to the contents of th
 git checkout -b <yourBranchName> : creates a branch and points you to it
 git branch : used to check if a branch was created and which you are pointing to with a *
 git push origin <yourBranchName> : Pushes a branch with your changes onto GitHub. <yourBranchName> has to be a branch on your local machine first.
+git revert <hash code number> : use to undo the commit. Get the hash code from GitHub.
+git pull origin master : Get changes from GitHub to your local computer (when working on the master branch)
+git log : use to see all of the new commits
+    
